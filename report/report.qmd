@@ -20,7 +20,7 @@ abstract: |
 
 ```{r, echo = FALSE, message = FALSE}
 # loading all the necessary packages
-source(here::here("scripts/setup.R"))
+source(here::here("src/setup.R"))
 ```
 
 ```{r child = paste0('sections/', c('intro.qmd', 'data.qmd', 'eda.qmd', 'supervised.qmd', 'unsupervised.qmd', 'concl.qmd'))}
